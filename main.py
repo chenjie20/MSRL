@@ -40,7 +40,7 @@ parser.add_argument('--seed', type=int, default=42, help='Initializing random se
 parser.add_argument('--lr', type=float, default=5e-4, help='Learning rate for task encoder')
 parser.add_argument('--weight_decay', type=float, default=0., help='Initializing weight decay.')
 parser.add_argument('--batch_size', type=int, default=1000)
-parser.add_argument('--epochs', type=int, default=400)
+parser.add_argument('--epochs', type=int, default=600)
 
 parser.add_argument('--alpha', type=float, default=5.0, help='Cluster diversity regularization')
 parser.add_argument('--beta', type=float, default=1.0, help='Cross-view consistency regularization')
@@ -343,3 +343,4 @@ if __name__ == '__main__':
     #                             # pbar.set_description(f'Training loss {float(total_loss):.3f}, cluster acc {cluster_acc:.4f}')
     #                     print(f'Finished')
     #
+
