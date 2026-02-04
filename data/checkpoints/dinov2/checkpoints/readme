@@ -1,1 +1,5 @@
+dinov2:
 
+https://dl.fbaipublicfiles.com/dinov2/dinov2_vitg14/dinov2_vitg14_pretrain.pth
+
+Tip: We recommend that the model be downloaded using the MSRL source code, as it does not appear to be consistent with the pretrained model reported in the paper.
