@@ -276,9 +276,9 @@ if __name__ == '__main__':
     # # batch_sizes = np.array([10000, 5000, 2000, 1000], dtype=np.int32) # for large-scale datasets
     # # batch_sizes = np.array([2000, 1000, 500, 200], dtype=np.int32) # for medium-scale datasets
     # batch_sizes = np.array([500, 200, 100], dtype=np.int32) # for small-scale datasets
-    # alphas = np.array([1.0, 5.0, 10.0], dtype=np.float32)
-    # betas = np.array([1, 0.5, 0.2], dtype=np.float32) #1, 0.5, 0.2
-    # dropouts = np.array([0.0, 0.1], dtype=np.float32)
+    # alphas = np.array([5.0, 10.0, 20.0], dtype=np.float32)
+    # betas = np.array([1, 0.5, 0.2, 0.1], dtype=np.float32) #1, 0.5, 0.2
+    # dropouts = np.array([0.0, 0.1, 0.2, 0.3], dtype=np.float32)
     #
     #
     # model_name_format = 'TLC_pytorch_model_%s_%d_%d.pth'
@@ -343,4 +343,5 @@ if __name__ == '__main__':
     #                             # pbar.set_description(f'Training loss {float(total_loss):.3f}, cluster acc {cluster_acc:.4f}')
     #                     print(f'Finished')
     #
+
 
